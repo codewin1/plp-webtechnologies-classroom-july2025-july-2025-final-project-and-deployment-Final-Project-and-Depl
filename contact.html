@@ -1,0 +1,69 @@
+<!doctype html><html lang='en'><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Edwin Murimi - Full Stack Developer">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Edwin Murimi | Portfolio</title>
+</head><body><nav class="navbar" id="navbar"><div class="nav-container container"><div class="nav-logo"><a href="index.html">Ed<span style="color:var(--accent)">win</span></a></div>
+    <div class="nav-menu" id="nav-menu">
+      <a href="index.html" class="nav-link ">Home</a>
+      <a href="about.html" class="nav-link ">About</a>
+      <a href="projects.html" class="nav-link ">Projects</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+    </div></nav>
+<section id="contact" class="container">
+  <div class="section-header">
+    <h2 class="section-title">Get In <span style="color:var(--accent2)">Touch</span></h2>
+    <p class="section-description">Interested in working together? Drop a message and I’ll usually respond within 24 hours.</p>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Contact Details</h3>
+      <div class="contact-item">
+        <div class="contact-icon">📧</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <a class="contact-value" href="mailto:edwinmurimi19@gmail.com">edwinmurimi19@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div>
+          <div class="contact-label">Phone</div>
+          <a class="contact-value" href="tel:+254711503927">+254 (711) 503-927</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Embu County, Kenya</div>
+        </div>
+      </div>
+
+      <div style="margin-top:1rem">
+        <h4 style="margin:0 0 .5rem 0">Connect</h4>
+        <div style="display:flex;gap:.6rem">
+          <a href="https://github.com/codewin1" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/edwinmurimi/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="margin-top:0">Send a Message</h3>
+      <form data-form="contact" action="https://formspree.io/f/xblpngwq" method="POST" style="display:flex;flex-direction:column;gap:.6rem">
+        <label><span style="display:block;color:var(--muted);font-size:.85rem">Name</span><input name="name" required placeholder="Your name" style="padding:.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)"></label>
+        <label><span style="display:block;color:var(--muted);font-size:.85rem">Email</span><input type="email" name="email" required placeholder="you@example.com" style="padding:.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)"></label>
+        <label><span style="display:block;color:var(--muted);font-size:.85rem">Message</span><textarea name="message" required placeholder="Tell me about your project..." style="padding:.6rem;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);min-height:120px"></textarea></label>
+        <button type="submit" class="btn btn-primary" style="background:linear-gradient(135deg,var(--accent2),var(--accent));border:none;padding:.75rem 1rem;border-radius:10px;color:#062233;font-weight:700">Send Message</button>
+        <div id="successMessage" class="success-message" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class='site-footer'><div class='container'><p>&copy; 2025 Edwin Murimi — Built with care.</p></div></footer><script src='js/main.js'></script></body></html>
